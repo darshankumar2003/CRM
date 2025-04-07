@@ -1,0 +1,49 @@
+/* Profile.css */
+body {
+    background-color: #121212;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 188, 212, 0.2);
+    text-align: center;
+  }
+  
+  .profile-container h2 {
+    color: #00bcd4;
+    margin-bottom: 20px;
+  }
+  
+  .profile-container p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .profile-container strong {
+    color: #ffffff;
+  }
+  
+  .profile-container button {
+    background-color: #00bcd4;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-container button:hover {
+    background-color: #0193aa;
+  }
+  

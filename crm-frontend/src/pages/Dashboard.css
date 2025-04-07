@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  /* Heading */
+  .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 30px;
+    color: #00e5ff;
+    text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff;
+  }
+  
+  /* Role Paragraph */
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #c0c0c0;
+    margin-bottom: 20px;
+  }
+  
+  /* Nav Links */
+  nav {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  nav a {
+    color: #00e5ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #1de9b6;
+    text-shadow: 0 0 10px #1de9b6;
+  }
+  
+  /* Textarea Container */
+  .textarea-container {
+    position: relative;
+    margin: 0 auto 30px;
+    width: 80%;
+    max-width: 800px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.3);
+    border: 2px solid #00e5ff;
+    background: #1b1b1b;
+  }
+  
+  /* Animated Border */
+  .textarea-container::before {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    background: linear-gradient(45deg, #00e5ff, #1de9b6, #00e5ff);
+    z-index: -1;
+    filter: blur(20px);
+    animation: pulse-border 6s linear infinite;
+  }
+  
+  @keyframes pulse-border {
+    0% {
+      filter: blur(20px) hue-rotate(0deg);
+    }
+    100% {
+      filter: blur(20px) hue-rotate(360deg);
+    }
+  }
+  
+  /* Textarea Styling */
+  #txt {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+  }
+  
+  /* Button Styles */
+  .button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container button {
+    background: linear-gradient(to right, #00e5ff, #1de9b6);
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1b1b1b;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 229, 255, 0.3);
+  }
+  
+  .button-container button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00e5ff, 0 0 30px #1de9b6;
+  }
+  
+  /* Output Text Section */
+  .output-text {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    color: #90caf9;
+    text-shadow: 0 0 5px #00e5ff;
+  }
+  
