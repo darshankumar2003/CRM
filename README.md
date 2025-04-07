@@ -98,10 +98,8 @@ Edit
 
 
 
+
 📁 Server (Backend - Node.js + Express)
-bash
-Copy
-Edit
 /server
 │
 ├── /controllers
@@ -118,6 +116,7 @@ Edit
 └── /models
     └── User.js
     └── Lead.js
+
 
 
 env
