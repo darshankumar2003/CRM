@@ -8,7 +8,7 @@ import axios from "axios"; // ⬅️ This line is missing
 import Register from './pages/Register'; // ⬅️ This line is missing
 
 // Add this once in App.jsx or main.jsx
-axios.defaults.baseURL = 'http://localhost:5000/api';
+axios.defaults.baseURL = 'https://crm-backend-s619.onrender.com';
 axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem('crmToken')}`;
 
 function App() {
