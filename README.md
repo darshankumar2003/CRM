@@ -1,8 +1,13 @@
 📞 CRM Application (MERN Stack)
+
+
 Live:https://crm-frontend-edmn.onrender.com
 Admin Credentials:
 Username:admin@test.com
 Password:123456
+
+
+
 A Customer Relationship Management (CRM) system built using the MERN stack (MongoDB, Express, React, Node.js) designed for real-world use cases. The platform supports role-based access (Admin & Telecaller), lead management, authentication, and a clean modular structure for scalability.
 
 🚀 Features
